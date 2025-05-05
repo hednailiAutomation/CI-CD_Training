@@ -1,10 +1,11 @@
 {
-  "name": "devops_training",
+  "name": "CI-CD_Training",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
     "start": "serve .",
-    "test": "jest"
+    "test": "jest",
+   "open": "start https://hednailiautomation.github.io/CI-CD_Training/"
   },
   "devDependencies": {
     "jest": "^29.0.0",
