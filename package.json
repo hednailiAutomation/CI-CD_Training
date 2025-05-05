@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "start index.html",
-    "test": "jest",
-    "open": "start https://hednailiautomation.github.io/CI-CD_Training/"
+    "start": "serve .",
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.0.0",
-    "jsdom": "^22.0.0"
+    "jsdom": "^22.0.0",
+    "serve": "^14.2.4"
   },
   "jest": {
     "testEnvironment": "jsdom"
@@ -17,5 +17,4 @@
   "author": "",
   "license": "ISC",
   "description": ""
-
 }
