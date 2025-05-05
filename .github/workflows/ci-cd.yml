@@ -1,4 +1,4 @@
-name: CI/CD Docker Static Site
+name: CI/CD Docker DevOps_Training
 
 on:
   push:
