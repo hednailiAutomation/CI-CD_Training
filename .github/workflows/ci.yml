@@ -25,7 +25,7 @@ jobs:
       # Étape 3: Construire l'image Docker
       - name: Build Docker image
         run: |
-          docker build -t devops_training .
+          docker build -t ci-cd_training .
 
       # Étape 4: Vérifier les tests unitaires (si tu en as)
       - name: Run tests (optionnel)
