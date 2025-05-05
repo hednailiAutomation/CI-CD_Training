@@ -1,4 +1,4 @@
-name: CI/CD Docker DevOps_Training
+name: CI/CD Docker DevOps Training
 
 on:
   push:
