@@ -1,9 +1,11 @@
 {
-  "name": "DevOps_Training",
+  "name": "devops_training",
   "version": "1.0.0",
+  "main": "index.html",
   "scripts": {
-   "start": "start index.html"
-    "test": "jest"
+    "start": "start index.html",
+    "test": "jest",
+    "open": "start https://hednailiautomation.github.io/CI-CD_Training/"
   },
   "devDependencies": {
     "jest": "^29.0.0",
@@ -11,5 +13,9 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
-  }
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+
 }
