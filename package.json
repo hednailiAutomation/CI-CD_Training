@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0",
     "jsdom": "^22.0.0",
     "serve": "^14.2.4"
   },
