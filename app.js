@@ -1,6 +1,6 @@
 function greet() {
   const name = document.getElementById('name').value;
-  const greeting = `Hi, ${name || 'stranger'}!`;
+  const greeting = `Hello, ${name || 'stranger'}!`;
   document.getElementById('greeting').innerText = greeting;
   return greeting; // return for testing
 }
