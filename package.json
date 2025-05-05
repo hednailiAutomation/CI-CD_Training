@@ -1,9 +1,9 @@
 {
-  "name": "CI-CD_Training",
+  "name": "training",
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "start": "serve .",
+    "start": "index.html",
     "test": "jest",
    "open": "start https://hednailiautomation.github.io/CI-CD_Training/"
   },
