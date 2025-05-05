@@ -59,7 +59,7 @@ jobs:
          password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t yourname/your-image-name:latest .
+        run: docker build -t autjavatester/devops_training:latest .
 
       - name: Push Docker image
-        run: docker push yourname/your-image-name:latest
+        run: docker push autjavatester/devops_training:latest
